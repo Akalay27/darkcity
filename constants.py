@@ -1,3 +1,10 @@
+'''
+
+Copyright © 2019 Adam Kalayjian
+
+Darkcity
+
+'''
 size = width, height = 500, 500
 black = (0,0,0)
 red = (255,0,0)
