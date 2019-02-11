@@ -1,3 +1,10 @@
+'''
+
+Copyright © 2019 Adam Kalayjian
+
+Darkcity
+
+'''
 import sys, pygame
 import math
 from random import randint, random
