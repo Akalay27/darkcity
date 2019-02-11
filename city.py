@@ -1,3 +1,10 @@
+'''
+
+Copyright © 2019 Adam Kalayjian
+
+Darkcity
+
+'''
 import sys
 try:
 	import pygame
