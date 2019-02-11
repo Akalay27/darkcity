@@ -1,3 +1,10 @@
+'''
+
+Copyright © 2019 Adam Kalayjian
+
+Darkcity
+
+'''
 import pygame
 import numpy
 from pygame import surfarray
