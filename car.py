@@ -267,12 +267,6 @@ class npc(object):
 
 		#convert to positions path from tile path
 
-#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=
-#		#each path segment will include the number of frames to complete the segment.
-#		#turns will be divided into multiple segments. 
-#
-#		# make a class for the path segments. Have a counter inside that then sequences between segments depending on segment length.
-#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=
 		self.createPath()
 		self.currentSegment = 0
 		self.prevSegmentsTotal = 0
@@ -411,45 +405,5 @@ class npc(object):
 			a = s.pos1[0]-cameraPos[0]+width/2,s.pos1[1]-cameraPos[1]+height/2
 			b = s.pos2[0]-cameraPos[0]+width/2,s.pos2[1]-cameraPos[1]+height/2
 			draw.line(screen,self.color,a,b,3)
-
-
-
-
-
-
-
-
-	#def drawPath(self,screen,cameraPos):
-		# drawPositions = []
-		# for s in segments:
-		# 	draw.line(screen)
-		#generate points  
-
-
-
-
-
-
-
-# pygame.init()
-
-# x,y = size = (600,600)
-
-# screen = pygame.display.set_mode(size)
-
-# screen.fill((0,0,0))
-	
-# pygame.display.flip()
-# test = 
-# while 1:
-# 	for event in pygame.event.get(): 
-# 		if event.type == pygame.QUIT: sys.exit()
-	
-	
-	
-	
-
-
-
 
 	
